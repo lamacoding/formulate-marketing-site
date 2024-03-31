@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 52">
+  <defs>
+    <style>.cls-2{fill:none;stroke:#CC4522;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Forms_-_Dropdown" data-name="Forms - Dropdown">
+      <g id="Forms_-_Dropdown-2" data-name="Forms - Dropdown">
+        <path d="M113.21 2h2.47A6.32 6.32 0 0 1 122 8.32v35.36a6.32 6.32 0 0 1-6.32 6.32H8.32A6.32 6.32 0 0 1 2 43.68V8.32A6.32 6.32 0 0 1 8.32 2h91.47" style="stroke-miterlimit:10;stroke-width:3px;fill:none;stroke:#CC4522;stroke-linecap:round"/>
+        <path class="cls-2" d="m108 23-6 7-6-7M82 13v27" style="fill:#CC4522"/>
+        <circle cx="107" cy="2" r="2" style="fill:#CC4522"/>
+      </g>
+    </g>
+  </g>
+</svg>
