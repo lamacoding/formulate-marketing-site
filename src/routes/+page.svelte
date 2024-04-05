@@ -1,6 +1,6 @@
 <script>
-  import { P, Heading, Li, List, Img, Button } from "flowbite-svelte";
-  import { CheckCircleSolid } from "flowbite-svelte-icons";
+  import {P, Heading, Li, List, Img, Button} from "flowbite-svelte";
+  import {CheckCircleSolid} from "flowbite-svelte-icons";
 </script>
 
 <div class="md:container md:mx-auto">
@@ -12,41 +12,37 @@
         Formulare für Schule, Arbeit, Unternehmen oder den privaten Gebrauch
         erstellen können.
         <Heading tag="h2" customSize="text-lg font-semibold" class="mt-10"
-          >Erstellen Sie:</Heading
+        >Erstellen Sie:
+        </Heading
         >
         <List tag="ul" class="text-gray-500 dark:text-gray-400 ps-5">
-          <Li icon
-            ><CheckCircleSolid
-              class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"
-            />Umfragen</Li
-          >
-          <Li icon
-            ><CheckCircleSolid
-              class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"
-            />Quizfragen</Li
-          >
-          <Li icon
-            ><CheckCircleSolid
-              class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"
-            />Anmeldeformulare</Li
-          >
-          <Li icon
-            ><CheckCircleSolid
-              class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"
-            />Bestellformulare</Li
-          >
-          <Li icon
-            ><CheckCircleSolid
-              class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"
-            />und vieles mehr...</Li
-          >
+          <Li icon>
+            <CheckCircleSolid class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"/>
+            Umfragen
+          </Li>
+          <Li icon>
+            <CheckCircleSolid class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"/>
+            Quizfragen
+          </Li>
+          <Li icon>
+            <CheckCircleSolid class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"/>
+            Anmeldeformulare
+          </Li>
+          <Li icon>
+            <CheckCircleSolid class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"/>
+            Bestellformulare
+          </Li>
+          <Li icon>
+            <CheckCircleSolid class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400"/>
+            und vieles mehr...
+          </Li>
         </List>
       </P>
+      <div class="flex gap-5 mt-14">
+        <Button>Sofort loslegen</Button>
+        <Button color="alternative">Funktionen entdecken</Button>
+      </div>
     </div>
-    <Img src="undraw_forms_re_pkrt.svg" alt="form" class="lg:w-1/2 m-auto" />
-    <div class="flex gap-5">
-      <Button>Sofort loslegen</Button>
-      <Button color="alternative">Funktionen entdecken</Button>
-    </div>
+    <Img src="undraw_forms_re_pkrt.svg" alt="form" class="lg:w-1/2 m-auto"/>
   </div>
 </div>
